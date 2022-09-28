@@ -31,6 +31,7 @@ nav {
     /*position: sticky;  /*ojo con el position*/
     top: 0px;
     grid-area: nav;
+    
 }
 
 .material {
@@ -241,129 +242,57 @@ section article div a h3 {
 
 #grilla_adjudicados {
     width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-    /*grid-row-gap: 40px;
-    margin: 30px 0px;*/
-    justify-items: center;
-    align-items: center;
-    grid-row-gap: 70px;
-    margin-top: 30px;
-    grid-template-areas: 
-    "jose"
-    "sara"
-    "hernan"
-    "eze"
-    "matias" 
-    ;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.grilla_adjudicados_contenido {
+    margin: 30px;
+}
+
+.parallax {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 200px;
+    margin-bottom: 50px;
+    height: 300px;
 }
 
 .titulo_adjudicados {
-    grid-area: jose;
-    color: #ffffff ;
-    background-color: #016f52;
-    margin: 20px;
-    padding: 20px 45% 20px 45% ;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.parrafo_adjudicados {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.fotos_adjudicados {
+    height: 300px;
+    width: 400px;
+}
+
+h4, strong{
+    margin: 20px 0 0 0;
+    padding: 0px;
+    font-weight: 600;
+    color: #016f52;
+}
+
+small {
+    color: #626262;
 }
 
 
-#articulo_uno {
-    grid-area: sara;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-#articulo_dos {
-    grid-area: hernan;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-#articulo_tres {
-    grid-area: eze;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-#articulo_cuatro {
-    grid-area: matias;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-.articulo_uno_contenido {
-    width: 30%;
-    height: 100%;
-}
-
-.articulo_dos_contenido {
-    width: 30%;
-    height: 100%;
-}
-
-.articulo_tres_contenido {
-    width: 30%;
-    height: 100%;
-}
-
-.articulo_cuatro_contenido {
-    width: 30%;
-    height: 100%;
-}
-
-
-.articulos_adjudicados_texto {
-    background-color: #30745b;
-    height: 200px;
-
-}
-
-.articulos_adjudicados_titulo {
-    background-color: #1C1C1C;
-    color: white;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.articulo_uno_video {
-    margin-right: 100px;
-}
-
-.articulo_dos_video {
-    margin-left: 200px;
-}
-
-.articulo_tres_video {
-    margin-right: 100px;
-}
-.articulo_cuatro_video {
-    margin-left: 200px;
-}
 
 /***********************************************          SPEACHS          *******************************************************/
 
