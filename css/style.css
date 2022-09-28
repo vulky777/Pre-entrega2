@@ -17,7 +17,7 @@ ol, ul {
 h2 {
     color: #1e4635c0 ;
     border-bottom: solid 1px rgba(0, 0, 0, 0.884);
-    margin: 20px;
+    margin:  40px 20px 40px 20px;
     padding-left: 10px;
 }
 
@@ -441,14 +441,34 @@ section article div a h3 {
 }
 
 
+/***********************************************          CONTACTO          *******************************************************/
 
+#formulario_contaco {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
 
+.formulario_contaco_imagen {
+    width: 70%;
+    margin-top: 30px;
+}
 
+.formulario_contaco_imagen_foto {
+    width: 100%;
+}
 
+.formulario {
+    width: 25%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
 
-
-
-
+label, input, legend {
+    font-size: 1.5rem;
+}
 
 /***********************************************          MEDIA.QUERIS          *******************************************************/
 
