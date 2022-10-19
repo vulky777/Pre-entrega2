@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 a {
@@ -17,13 +18,15 @@ body {
     height: 100vh;
     
     nav {
-        height: 8vh;
+        height: auto;
     }
     
     header {
+        width: auto;
         height: 15vh;
         background-image: url('../assets/image/campus.png');
         background-repeat: no-repeat;
+        background-position: right;
     }
     
     main {

@@ -25,19 +25,18 @@
         display: grid;
         justify-items: center;
         align-items: center;
-        font-size: 95%;
         font-weight: bold;
     }
 
     .audios_cuadrados_ejemplo {
         grid-area: ejemplo;
         display: grid;
-        justify-items: end;
+        justify-items: center;
         align-items: center;
 
         .audios_cuadrados_ejemplo_escuchar {
-            width: 80%;
-            margin-right: 30px;
+            width: 90%;
+            margin: 10px;
         }
     }
 }
